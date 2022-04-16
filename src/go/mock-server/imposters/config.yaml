@@ -1,0 +1,14 @@
+#config.yml
+
+imposters_path: "imposters"
+# port to run the server (default 3000)
+port: 3000
+host: "localhost"
+proxy:
+  # url: https://example.com
+  # proxy mode you can choose between (all, missing or none) (default "none")
+  mode: none
+# file watcher, reload the server with each file change
+watcher: true
+# if you run your server using TLS (https)
+secure: false

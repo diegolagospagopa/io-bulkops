@@ -15,7 +15,7 @@ func main() {
 
 	var listCodiciFiscali []string
 
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 100; i++ {
 		listCodiciFiscali = append(listCodiciFiscali, generateMockCodiceFiscale(i))
 	}
 	writeCodiciFiscaleInCsv(listCodiciFiscali)

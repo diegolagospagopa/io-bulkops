@@ -1,0 +1,15 @@
+[
+    {
+        "request": {
+            "method": "GET",
+            "endpoint": "/messaggi"            
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "body": "{\"result\":\"ok\"}"
+        }
+    }
+]
